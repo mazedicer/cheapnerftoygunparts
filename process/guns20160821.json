@@ -1,0 +1,920 @@
+[
+    {
+        "id": "MIG-25-AUG",
+        "name": "Nerf Aquashock (Orange/Yellow)",
+        "category": "aquashock",
+        "price": 7.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JN13ALL",
+        "name": "Nerf Bandolier",
+        "category": "bandolier",
+        "price": 6.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 3
+    },
+    {
+        "id": "JL52",
+        "name": "Nerf Barrel Break (Fire Red) w/ Ammo Rack",
+        "category": "barrel break",
+        "price": 14.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-24-AUG",
+        "name": "Nerf Barricade RV-10",
+        "category": "barricade",
+        "price": 9.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-SEP-21",
+        "name": "Nerf Beacon",
+        "category": "beacon",
+        "price": 4.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-37-AUG",
+        "name": "Buzz Bee Belt Blaster w/o ammo belt",
+        "category": "belt blaster",
+        "price": 9.99,
+        "weight": 5,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MAZE104",
+        "name": "Custom Buzz Bee Air Warriors Air Max Boss",
+        "category": "boss",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MAZE105",
+        "name": "Custom Buzz Bee Air Warriors Ultra-tek Champion",
+        "category": "champion",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-45-AUGALL",
+        "name": "Nerf Water Clip (blue)",
+        "category": "clip water",
+        "price": 1.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 3
+    },
+    {
+        "id": "AUG15MIGALL",
+        "name": "Nerf Banana Water Clip (blue)",
+        "category": "clip water",
+        "price": 3.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 7
+    },
+    {
+        "id": "JL16",
+        "name": "Nerf Demolisher",
+        "category": "demolisher",
+        "price": 12.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL-144",
+        "name": "Nerf Demolisher w/o battery lid",
+        "category": "demolisher",
+        "price": 10.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-46-AUG",
+        "name": "Nerf Demolisher",
+        "category": "demolisher",
+        "price": 12.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL027",
+        "name": "Nerf Deploy Clear",
+        "category": "deploy",
+        "price": 13.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL-109",
+        "name": "Nerf Deploy Clear",
+        "category": "deploy",
+        "price": 13.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MA168",
+        "name": "Nerf Deploy Clear Green",
+        "category": "deploy",
+        "price": 13.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY91",
+        "name": "Nerf Diatron Whiteout",
+        "category": "diatron",
+        "price": 10.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MAZE107",
+        "name": "Custom Nerf Doominator",
+        "category": "doominator",
+        "price": 43.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG16",
+        "name": "Nerf Firefly",
+        "category": "firefly",
+        "price": 5.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL005",
+        "name": "Nerf Hailfire w/ 8 Clips",
+        "category": "hailfire",
+        "price": 16.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL84",
+        "name": "Nerf Hailfire w/o Dome",
+        "category": "hailfire",
+        "price": 12.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL119",
+        "name": "Nerf Hailfire Clear Blue w/o Dome",
+        "category": "hailfire",
+        "price": 12.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL-120",
+        "name": "Nerf Hailfire w/ Half Dome",
+        "category": "hailfire",
+        "price": 15.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL-149",
+        "name": "Nerf Hammershot",
+        "category": "hammershot",
+        "price": 4.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL103",
+        "name": "Nerf Longshot Complete (Yellow)",
+        "category": "longshot",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL112",
+        "name": "Nerf Longshot (Blue)",
+        "category": "longshot",
+        "price": 9.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL124",
+        "name": "Nerf Longshot Complete (Blue)",
+        "category": "longshot",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL146",
+        "name": "Nerf Longshot (Blue)",
+        "category": "longshot",
+        "price": 9.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-SEP-2",
+        "name": "Nerf Longshot Complete (Blue)",
+        "category": "longshot",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-SEP-4",
+        "name": "Nerf Longshot w/ Front",
+        "category": "longshot",
+        "price": 12.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AP201",
+        "name": "Nerf Longstrike, 12 Drum, Light (no priming bolt)",
+        "category": "longstrike",
+        "price": 29.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL121",
+        "name": "Nerf Longstrike w/o Priming Bolt",
+        "category": "longstrike",
+        "price": 24.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-40-AUG",
+        "name": "Nerf Longstrike",
+        "category": "longstrike",
+        "price": 29.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG009ALL",
+        "name": "Nerf Mega Magnus",
+        "category": "magnus",
+        "price": 3.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 7
+    },
+    {
+        "id": "JL148",
+        "name": "Nerf Magstrike",
+        "category": "magstrike",
+        "price": 14.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG15ALL",
+        "name": "Nerf Maverick",
+        "category": "maverick",
+        "price": 1.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 2
+    },
+    {
+        "id": "MIG-SEP-8",
+        "name": "Nerf Vortex Nitron",
+        "category": "nitron",
+        "price": 10.99,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MAZE101",
+        "name": "Custom AirZone Powerbolt",
+        "category": "powerbolt",
+        "price": 29,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MAZE102",
+        "name": "Custom DartZone Powerstrike 24",
+        "category": "powerstrike",
+        "price": 39,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MA84",
+        "name": "Air Zone Prime Time Punisher Gatling Gun (working) w/o Belt w/o Ammo+Case",
+        "category": "punisher",
+        "price": 75,
+        "weight": 6,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MAZE103",
+        "name": "Toy Quest Quickload",
+        "category": "quickload",
+        "price": 19.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-38-AUG",
+        "name": "Rads 12",
+        "category": "rads 12",
+        "price": 0.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG95ALL",
+        "name": "Nerf 35 Ammo Drum Clear",
+        "category": "drum",
+        "price": 12.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG101ALL",
+        "name": "Nerf 35 Ammo Drum",
+        "category": "drum",
+        "price": 9.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 2
+    },
+    {
+        "id": "JL-125ALL",
+        "name": "Nerf 25 Ammo Drum",
+        "category": "drum",
+        "price": 9.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG96",
+        "name": "Nerf Raider Clear",
+        "category": "raider",
+        "price": 12.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "FEB158",
+        "name": "Nerf Recon",
+        "category": "recon",
+        "price": 5.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL76",
+        "name": "Nerf Recon",
+        "category": "recon",
+        "price": 5.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JN005",
+        "name": "Nerf Recon",
+        "category": "recon",
+        "price": 5.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JN51",
+        "name": "Nerf Recon",
+        "category": "recon",
+        "price": 5.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY006",
+        "name": "Nerf Recon",
+        "category": "recon",
+        "price": 5.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL31",
+        "name": "Nerf Retaliator",
+        "category": "retaliator",
+        "price": 6.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL33",
+        "name": "Nerf Retaliator Complete",
+        "category": "retaliator",
+        "price": 7.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-34-AUG",
+        "name": "Nerf Vortex Nitron Scope",
+        "category": "scope",
+        "price": 14.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL47",
+        "name": "Shell Shock X-6 (NEW)",
+        "category": "shell shock",
+        "price": 14.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG19",
+        "name": "Nerf Stampede Shield",
+        "category": "shield",
+        "price": 3.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG20",
+        "name": "Nerf Shield",
+        "category": "shield",
+        "price": 3.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY110",
+        "name": "Nerf Shotblast",
+        "category": "shotblast",
+        "price": 7.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL34",
+        "name": "Nerf Shotblast",
+        "category": "shotblast",
+        "price": 7.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JN67",
+        "name": "Nerf Stampede",
+        "category": "stampede",
+        "price": 12.99,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-3-AUG",
+        "name": "Nerf Stampede",
+        "category": "stampede",
+        "price": 12.99,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-SEP-7",
+        "name": "Nerf Stampede",
+        "category": "stampede",
+        "price": 12.99,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG98",
+        "name": "Nerf Adjustable Stock Clear",
+        "category": "stock",
+        "price": 7.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL-130ALL",
+        "name": "Nerf Adjustable Stock (blue)",
+        "category": "stock",
+        "price": 6.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 4
+    },
+    {
+        "id": "JL-151",
+        "name": "Nerf Stockade Stock",
+        "category": "stock",
+        "price": 9.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY73",
+        "name": "Super Soaker 2000",
+        "category": "super soaker",
+        "price": 34.99,
+        "weight": 7,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG65",
+        "name": "Buzz Bee Torrent",
+        "category": "torrent",
+        "price": 30.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JL161",
+        "name": "Buzz Bee Torrent",
+        "category": "torrent",
+        "price": 34.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY199",
+        "name": "Buzz Bee Torrent w/ Shells",
+        "category": "torrent",
+        "price": 39.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "APR233ALL",
+        "name": "Nerf 18 Round Clip",
+        "category": "clip",
+        "price": 1.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 6
+    },
+    {
+        "id": "AUG01Y16",
+        "name": "Nerf Swarmfire",
+        "category": "swarmfire",
+        "price": 16.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG02Y16",
+        "name": "Nerf Swarmfire",
+        "category": "swarmfire",
+        "price": 16.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG03Y16",
+        "name": "Nerf Vulcan",
+        "category": "vulcan",
+        "price": 16.99,
+        "weight": 5,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG04Y16",
+        "name": "Nerf Stampede",
+        "category": "stampede",
+        "price": 12.99,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG05Y16",
+        "name": "Nerf Stampede",
+        "category": "stampede",
+        "price": 12.99,
+        "weight": 4,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG06Y16",
+        "name": "Nerf Longshot (Yellow)",
+        "category": "longshot",
+        "price": 9.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG07Y16",
+        "name": "Nerf Longshot (Blue)",
+        "category": "longshot",
+        "price": 9.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG08Y16",
+        "name": "Nerf Raider",
+        "category": "raider",
+        "price": 9.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG09Y16",
+        "name": "Nerf Raider",
+        "category": "raider",
+        "price": 9.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG10Y16",
+        "name": "Nerf Slingfire",
+        "category": "slingfire",
+        "price": 9.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG11Y16",
+        "name": "Nerf Magstrike",
+        "category": "magstrike",
+        "price": 16.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG12Y16",
+        "name": "Nerf Stryfe",
+        "category": "stryfe",
+        "price": 9.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG13Y16",
+        "name": "Nerf Modulus Stock",
+        "category": "stock",
+        "price": 2.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG14Y16",
+        "name": "Elite Retaliator Stock",
+        "category": "stock",
+        "price": 2.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG15Y16ALL",
+        "name": "Nerf Recon Light Attachment",
+        "category": "light",
+        "price": 6.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 3
+    },
+    {
+        "id": "AUG16Y16",
+        "name": "Nerf Longstrike (no priming bolt)",
+        "category": "longstrike",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG17Y16",
+        "name": "Nerf Longstrike (no priming bolt)",
+        "category": "longstrike",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG18Y16",
+        "name": "Nerf Longstrike (no priming bolt)",
+        "category": "longstrike",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY10",
+        "name": "Super Soaker Twin Barrel",
+        "category": "twin barrel",
+        "price": 14.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY11",
+        "name": "Super Soaker Twin Barrel",
+        "category": "twin barrel",
+        "price": 14.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "FB20",
+        "name": "Nerf Vortex Vigilon",
+        "category": "vigilon",
+        "price": 6.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-13-AUG",
+        "name": "Nerf Vortex Vigilon",
+        "category": "vigilon",
+        "price": 6.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-SEP-12",
+        "name": "Nerf Vortex Vigilon",
+        "category": "vigilon",
+        "price": 6.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "AUG008",
+        "name": "Nerf Vulcan Complete",
+        "category": "vulcan",
+        "price": 29.99,
+        "weight": 7,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MIG-SEP-6",
+        "name": "Nerf Vulcan Complete",
+        "category": "vulcan",
+        "price": 29.99,
+        "weight": 7,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JN57",
+        "name": "Alpha Trooper w/ 12 Drum",
+        "category": "alpha trooper",
+        "price": 24.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JN57Y16",
+        "name": "Alpha Trooper w/ 12 Drum",
+        "category": "alpha trooper",
+        "price": 24.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY101",
+        "name": "Nerf Scout IX-3 (does not catch)",
+        "category": "scout",
+        "price": 6.99,
+        "weight": 0.13,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JUN59",
+        "name": "Nerf Rampage Sonic Ice (stuck)",
+        "category": "rampage",
+        "price": 12.99,
+        "weight": 1,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY75",
+        "name": "Nerf Slingfire",
+        "category": "slingfire",
+        "price": 10.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "MY127",
+        "name": "Nerf Slingfire",
+        "category": "slingfire",
+        "price": 10.99,
+        "weight": 2,
+        "order": 1,
+        "stock": 1
+    },
+    {
+        "id": "JUN15",
+        "name": "Nerf Swarmfire",
+        "category": "swarmfire",
+        "price": 19.99,
+        "weight": 3,
+        "order": 1,
+        "stock": 1
+    }
+]

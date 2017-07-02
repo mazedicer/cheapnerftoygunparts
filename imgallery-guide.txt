@@ -1,0 +1,111 @@
+Step 1: Put Your Images in a folder
+As we are going to work with images, the first thing to do is to place your pictures in a folder on the directory structure of your site. When they are all uploaded, write down the path to this folder and go to step 2.
+Step 2: Include the files
+Let's have a look at the files you'll need to include in order to get the manager to work. You'll need six files: The jQuery Library, The imgallery PHP Class, javascript file and stylesheet, but also the LightBox script and styles in order to present the images very nicely:
+
+    <?php
+    //imgallery PHP Class
+    include("Path_to/imgallery.php");
+    ?>
+     
+    <!--Scripts (jQuery + LightBox Plugin + imgallery Script)-->
+    <script type="text/javascript" src="Path_to/jquery.js"></script>
+    <script type="text/javascript" src="Path_to/jquery.lightbox.js"></script>
+    <script type="text/javascript" src="Path_to/imgallery.js"></script>
+     
+    <!--CSS (LightBox CSS + imgallery CSS)-->
+    <link rel="stylesheet" type="text/css" href="Path_to/lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="Path_to/imgallery.css" />
+
+Step 3: Change the variables
+In order to work, the class relies on 3 variables, the folder path of where your pictures are stored, the size you want your thumbnails to be, and the maximum size of an image. In order to set those parameters, open the imgallery.php file, and change lines 23, 24 and 25 to whatever you want the configuration to be:
+
+    //=======================================//
+    //============> Constructor <============//
+    //=======================================//
+    public function __construct(
+    $thumbsize = 96, //Change this to match your thumbnail size
+            $maxsize = 640, //Change this to match your maximum image size
+            $folderpath = "./lib/imgallery/pictures", //Change this to match your folder path
+            $elements = array()
+    ) {
+        $this->thumbsize = $thumbsize;
+        $this->maxsize = $maxsize;
+        $this->folderpath = $folderpath;
+        $this->elements = $elements;
+    }
+
+That's it, your gallery is pretty much ready to work now, you just need to open a page and to make a particular method call.
+Step 4: Call the getPublicSide method
+Now that you have changed your variables, the class is ready to get in action. If you are just looking for a quick way to make it work, open your page, and write the following:
+
+    ImgGallery::getPublicSide();
+
+By making this call, the logic behind the gallery gets your pictures from the specified folder. It then dynamically resizes your pictures and creates their thumbnail based on the given sizes. Finally, it displays the final result to the user, and sets up the LightBox navigation, ready to be used by your visitors. Wasn't that easy?
+Code review
+If you wish to know a bit more what is going on code wise, let's have a look together.
+
+    //=========================================//
+    //====> Easy call to set everything up <===//
+    //=========================================//
+    public function getPublicSide(){
+        $gallery = new ImgGallery();
+        $gallery->loadImages();
+        $gallery->display();
+    }
+
+The getPublicSide method, creates an instance of the object imgallery. it then calls the method loadImages() to get the pictures from your folder, and the display() method to write the markup of the final result. As there's nothing extraordinary here, let's have a look at what happens next. The loadImages method calls getImageArray(). As you will see in the following code, getImageArray() uses the very handy php function glob in order to read the content of the given directory, and looks for images. Those images are then added to the gallery, they are now ready to be used with the object. As our pictures are ready, and loaded into the gallery, we then call the display method, which loops through the pictures, and for each of them, generates a thumbnail (done by the method getImageThumbnail), a resized picture (getMaxImage), and of course, generates the gallery markup.
+
+    //========================================//
+    //=====> List the images to include <=====//
+    //========================================//
+    public function getImageArray() {
+        //Tell the class to look for images inside this folder
+        $path = $this->folderpath . '/{*.jpg,*.gif,*.png}';
+        $imgarray = glob($path, GLOB_BRACE) ? glob($path, GLOB_BRACE) : array();
+        return $imgarray; //Return the found images
+    }
+     
+    //=========================================//
+    //==> Write the markup for the gallery <===//
+    //=========================================//
+    public function display($showit = 1) {
+        $markup = '
+        <div id="easyimgallery">
+        <ul>';
+        if (!empty($this->elements)) {
+            foreach ($this->elements as $img) {
+                $thumb = $this->getImageThumbnail($img);
+                $maxsize = $this->getMaxImage($img);
+                $imgname = end(explode("/", $img));
+                $markup.='<li><a href="' . $maxsize . '" class="lightbox" title="' . $imgname . '">
+                <img src="' . $thumb . '" alt="' . $imgname . '" />
+                </a></li>';
+            }
+        }
+        $markup.='
+        </ul>
+        </div>';
+        if ($showit == 1) {
+            echo $markup;
+        }
+        return $markup;
+    }
+
+That's it for the PHP side really. On the front end, the javascript files that we include are there to setup the LightBox plugin. It is just a simple snippet of code to say that every link that is found in the gallery will behave like a LightBox:
+
+    jQuery(document).ready(function() {
+        //Setup the lightbox
+        $("#easyimgallery a").lightBox();
+    });
+
+At this point, the code is all ready to go. If you followed those simple steps and put your images in your folder, you should see the thumbnails appearing on your page.
+How do I add, remove, or edit the pictures of my gallery?
+As you now understand, the gallery works with a folder. As far as the gallery is concerned, it is this folder that holds all the information about your gallery. Based on this concept, if you want to:
+
+    Add an image to the gallery, simply copy it into your folder. The next time you refresh the page, it will be included.
+    Delete an image, simply remove it from your folder. The next time you refresh the page, it will be gone.
+    Edit an image of the gallery, simply rename it in your folder. The next time you refresh the page, the name will be changed.
+
+Conclusion
+This handy Class handles the coding of the gallery based on a folder path and image sizes. It's a simple solution that doesn't require a database in order to work, but that is still dynamic in terms of markup and thumbnail generation.
